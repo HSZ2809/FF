@@ -11,7 +11,7 @@
 #define VK_KB_C 0X43
 
 
-// 데이타 베이스
+// 데이타 베이스 2
 //#define DB_HOST "127.0.0.1"
 //#define DB_USER "root"
 //#define DB_PASS "2809"
