@@ -1,5 +1,5 @@
-#define SCREEN_WITH 1280	// È­¸é °¡·Î ÇÈ¼¿Å©±â
-#define SCREEN_HEIGHT 768	// È­¸é ¼¼·Î ÇÈ¼¿Å©±â
+#define SCREEN_WITH 1280	// í™”ë©´ ê°€ë¡œ í”½ì…€í¬ê¸°
+#define SCREEN_HEIGHT 768	// í™”ë©´ ì„¸ë¡œ í”½ì…€í¬ê¸°
 
 #define FRAME 1000
 #define LEFT 0
@@ -10,32 +10,33 @@
 #define VK_KB_X 0X58
 #define VK_KB_C 0X43
 
-// µ¥ÀÌÅ¸ º£ÀÌ½º
-#define DB_HOST "127.0.0.1"
-#define DB_USER "root"
-#define DB_PASS "2809"
-#define DB_NAME "test"
-#define CHOP(x) x[strlen(x) - 1] = ' ' // ¾µ·Á´Ù°¡ ¾È¾¸...
 
-// °¢ ¿¢¼ÇÀÇ °è¼ö
+// ë°ì´íƒ€ ë² ì´ìŠ¤ 
+//#define DB_HOST "127.0.0.1"
+//#define DB_USER "root"
+//#define DB_PASS "2809"
+//#define DB_NAME "test"
+//#define CHOP(x) x[strlen(x) - 1] = ' ' // ì“¸ë ¤ë‹¤ê°€ ì•ˆì”€...
+
+// ê° ì—‘ì…˜ì˜ ê³„ìˆ˜
 #define ATTACKFACTOR 2
 #define HILLFACTOR 3
 
-// °¢ ½ºÅ³ÀÇ ID
+// ê° ìŠ¤í‚¬ì˜ ID
 #define DOUBLE_SLASH 0
 #define FIREBALL 1
 #define BILZZARD 2
 
-// °¢ ½ºÅ³ÀÇ °è¼ö
+// ê° ìŠ¤í‚¬ì˜ ê³„ìˆ˜
 #define DOUBLE_SLASH_FACTOR 2
 #define FIREBALL_FACTOR 3
 #define BILZZARD_FACTOR 5
 
-// ÅÏ È®ÀÎ¿ë º¯¼öÀÇ °ª
+// í„´ í™•ì¸ìš© ë³€ìˆ˜ì˜ ê°’
 #define PLAYER true
 #define ENEMY false
 
-// ¸ó½ºÅÍ ÃÊ±â°ª
+// ëª¬ìŠ¤í„° ì´ˆê¸°ê°’
 #define DRAGON_HP 300
 #define DRAGON_STR 30
 #define SLIME_HP 100
@@ -43,13 +44,13 @@
 #define GOBLINE_HP 200
 #define GOBLINE_STR 20
 
-// ÆÄÆ¼ ¸â¹öµéÀÇ ID
+// íŒŒí‹° ë©¤ë²„ë“¤ì˜ ID
 #define HERO 0
 #define THIEF 1
 #define PRIEST 2
 #define WIZARD 3
 
-// ÆÄÆ¼ ¸â¹öµéÀÇ ½ºÅ×ÀÌÅÍ½º ID
+// íŒŒí‹° ë©¤ë²„ë“¤ì˜ ìŠ¤í…Œì´í„°ìŠ¤ ID
 enum statMenber
 {
 	STR,
@@ -60,7 +61,7 @@ enum statMenber
 	FAITH
 };
 
-// ÆÄÆ¼ ¸â¹öµéÀÇ Àåºñ ½ºÅ×ÀÌÅÍ½º ID
+// íŒŒí‹° ë©¤ë²„ë“¤ì˜ ì¥ë¹„ ìŠ¤í…Œì´í„°ìŠ¤ ID
 enum statAddMenber
 {
 	ADD_STR,
@@ -71,7 +72,7 @@ enum statAddMenber
 	ADD_FAITH
 };
 
-// ÆÄÆ¼ ¸â¹öµéÀÇ HP, MP, °æÇèÄ¡ ID
+// íŒŒí‹° ë©¤ë²„ë“¤ì˜ HP, MP, ê²½í—˜ì¹˜ ID
 enum statHPMPEXP
 {
 	NOW,
@@ -79,16 +80,16 @@ enum statHPMPEXP
 };
 
 
-// ÆÄÆ¼ ¸â¹öµéÀÇ Àåºñ Å¸ÀÔ
+// íŒŒí‹° ë©¤ë²„ë“¤ì˜ ì¥ë¹„ íƒ€ì…
 #define WEAPON 0
 #define ARMOR 1
 
-// ¼­¼ö ¿µ¾î Á¤ÀÇ
+// ì„œìˆ˜ ì˜ì–´ ì •ì˜
 #define FIRST 0
 #define SECOND 1
 #define THIRD 2
 
-// ³ôÀÌ¿Í ³Êºñ
+// ë†’ì´ì™€ ë„ˆë¹„
 #define WIDTH 0
 #define HEIGHT 1
 
