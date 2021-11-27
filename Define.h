@@ -11,11 +11,11 @@
 #define VK_KB_C 0X43
 
 // 데이타 베이스
-#define DB_HOST "127.0.0.1"
-#define DB_USER "root"
-#define DB_PASS "2809"
-#define DB_NAME "test"
-#define CHOP(x) x[strlen(x) - 1] = ' ' // 쓸려다가 안씀...
+//#define DB_HOST "127.0.0.1"
+//#define DB_USER "root"
+//#define DB_PASS "2809"
+//#define DB_NAME "test"
+//#define CHOP(x) x[strlen(x) - 1] = ' ' // 쓸려다가 안씀...
 
 // 각 엑션의 계수
 #define ATTACKFACTOR 2
